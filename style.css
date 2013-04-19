@@ -693,7 +693,7 @@ input#submit:hover{
 	margin: 10px 0;
 }
 
-.previous_comment, .next_comment{
+.previous_comment a, .next_comment a{
 	padding: 3px 5px;
 	background-color: #E9E9E9;
     border-radius: 5px;
