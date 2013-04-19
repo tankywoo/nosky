@@ -17,8 +17,9 @@
 			<?php wp_list_comments(); ?>
 		</ul>
 		<div class="comment-navigation">
-			<div class="alignleft"><?php previous_comments_link() ?></div>
-			<div class="alignright"><?php next_comments_link() ?></div>
+			<div class="alignleft"><span class="previous_comment"><?php previous_comments_link() ?></span></div>
+			<div class="alignright"><span class="next_comment"><?php next_comments_link() ?></span></div>
+			<div class="clearfix"></div>
 		</div>
 		<?php else : // this is displayed if there are no comments so far ?>
 		<?php if ('open' == $post->comment_status) : ?>

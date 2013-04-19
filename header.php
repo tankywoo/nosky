@@ -22,12 +22,9 @@
 		<meta name="description" content="<?php echo get_option('mytheme_description'); ?>" />
 	<?php }?>
 	
-	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>-->
-	<!--<script type="text/javascript" src="<?php __(TEMPLATEPATH. '/js/slide.js'); ?>"></script>-->
-	
 	<!-- <?php wp_get_archives('type=monthly&format=link'); ?> -->
 	<?php //comments_popup_script(); // off by default ?>
-	<!-- WTQ:solve the nested comment problem -->
+	<!-- solve the nested comment problem -->
 	<?php if (is_singular() && comments_open() && (get_option('thread_comments')==1)) 
 		wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_head(); ?>
@@ -43,7 +40,6 @@
 </head>
 <body>
 	<!-- #upnavi BEGIN -->
-	<!-- TODO need more research -->
 	<div id="topmenu" style="
 	<?php 
 		if(!empty($nosky_tmbcolor)){
