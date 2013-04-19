@@ -20,7 +20,7 @@
 								<span class="datetime"><?php the_time('Y-m-d'); ?></span>
 							</div><!-- .upmetadata END -->
 
-							<div class="clearfix" />
+							<div class="clearfix" ></div>
 
 						</div>
 					<?php endwhile; ?>
