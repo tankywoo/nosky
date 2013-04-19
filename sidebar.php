@@ -2,11 +2,6 @@
 		<div id="sidebar">
 			<ul>
 				<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
-				<!--
-				<div class="widget_tabcontent">
-				<h3><span class="selected">最新文章</span>
-				<span>最热文章</span>
-				<span>随机文章</span></h3>
 				<ul><?php query_posts(array('posts_per_page' => 10,'caller_get_posts' =>1,'orderby' =>comment_count,));
 while ( have_posts() ) : the_post(); ?>
 <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>

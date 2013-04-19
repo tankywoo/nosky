@@ -15,13 +15,12 @@
 
 	<?php wp_get_archives('type=monthly&format=link'); ?>
 	<?php //comments_popup_script(); // off by default ?>
-	<!-- WTQ:solve the nested comment problem -->
+	<!-- solve the nested comment problem -->
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_head(); ?>
 </head>
 <body>
 	<!-- #upnavi BEGIN -->
-	<!-- TODO need more research -->
 	<div id="topmenu">
 		<div id="topmenubar">
 			<!-- <div class="leftalign"> -->
@@ -40,7 +39,6 @@
 		<div class="clearfix"></div>
 	</div>
 	<!-- #ipnavi END -->
-	
 	
 	<!-- #wrapper BEGIN -->
 	<div id="wrapper">
@@ -61,15 +59,9 @@
 				</span>
 			</div><!-- #main END -->
 			
-			<!-- TODO:add the widgets -->
 			<?php get_sidebar(); ?>
-			<!-- #siderbar BEGIN -->
-			<!--
-			<div id="sidebar">
-				ZZZZZZZZZZZZZZ
-			</div>--><!-- #sidebar END -->
 			
-		 <!-- </div> --><!-- #container END -->
+		 <!-- #container END -->
 		 <div class="clearfix"></div>
 		 <div id="nkfill"></div>
 	</div><!-- #wrapper END -->
@@ -90,12 +82,3 @@
 	<?php wp_footer() ?>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
