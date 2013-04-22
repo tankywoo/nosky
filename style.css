@@ -231,6 +231,9 @@ code {
     margin: 0;
     padding: 14px 8px;
     display: block;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 .nav li a:hover{
@@ -693,7 +696,7 @@ input#submit:hover{
 	margin: 10px 0;
 }
 
-.previous_comment a, .next_comment a{
+.previous_comment a, .next_comment a, .previous_post a, .next_post a{
 	padding: 3px 5px;
 	background-color: #E9E9E9;
     border-radius: 5px;

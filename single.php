@@ -28,8 +28,8 @@
 					<!-- #navigation BEGIN -->
 					<!-- support for the PageNavi plugin -->
 					<div class="navigation" class="clearfix">
-						<div class="alignleft"><?php next_post_link('&laquo; %link') ?></div>
-						<div class="alignright"><?php previous_post_link(__('%link &raquo;')) ?></div>
+						<div class="alignleft"><span class="previous_post"><?php previous_post_link(__('%link &raquo;')) ?></span></div>
+						<div class="alignright"><span class="next_post"><?php next_post_link('&laquo; %link') ?></span></div>
 						<div class="clearfix"></div>
 					</div>
 					<!-- #navigation END -->
