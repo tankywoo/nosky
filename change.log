@@ -2,3 +2,6 @@
 * 修改了文章meta的布局
 * 去掉了无用的image和js
 * 简化主题，去掉无关的元素
+
+= 2013/04/23
+* 配合Gist，把pre的line-height由18px改为20px
