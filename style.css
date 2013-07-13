@@ -49,6 +49,10 @@ table {
     border-spacing: 0;
 }
 
+p {
+	margin: 5px 0;
+}
+
 a img {
     border: none;
 }
