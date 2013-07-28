@@ -449,13 +449,18 @@ code {
 	padding: 8.5px;
 	margin: 0 0 9px;
 	line-height: 20px;
-	word-break: break-all;
-	word-wrap: break-word;
-	white-space: break-word;
+	/* word-break: break-all; */
+	/* word-wrap: break-word; */
+	/* white-space: break-word; */
 	border: 1px solid rgba(0, 0, 0, 0.15);
 	background-color:#f5f5f5;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	white-space: -moz-pre-wrap; /* Firefox */
+	white-space: -pre-wrap; /* ancient Opera */
+	white-space: -o-pre-wrap; /* newer Opera */
+	white-space: pre-wrap; /* Chrome; W3C standard */
+	word-wrap: break-word; /* IE */
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
